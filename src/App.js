@@ -1,14 +1,16 @@
 import React from 'react';
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
-import AboutView from './views/AboutView';
 import HomeView from './views/HomeView';
+import AboutView from './views/AboutView';
+import Skip from './components/Skip';
+
 
 const App = ()=>{
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' elment={<HomeView />} />
-        <Route path='/about' elment={<AboutView />} />
+        <Route path='/' element={<HomeView /> }/>
+        <Route path='/about' element={<AboutView /> }/>
       </Routes>
     </BrowserRouter>
   )
