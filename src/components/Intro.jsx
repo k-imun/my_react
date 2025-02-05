@@ -1,11 +1,7 @@
 import React from 'react'
 import about from "../assets/images/imgabout.png"
 import about2 from "../assets/images/imgabout2.png"
-
-const introText = {
-    title: "port developer",
-    desc: ["talent is", "found at the end of the","effort"],
-}
+import {introText} from "../contants"
 
 const Intro = () => {
   return (
